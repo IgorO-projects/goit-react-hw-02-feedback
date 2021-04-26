@@ -1,0 +1,7 @@
+.list {
+    list-style: none;
+    display: flex;
+}
+.list__item:not(:last-child) {
+    margin-right: 10px;
+}
